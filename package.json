@@ -1,5 +1,5 @@
 {
-  "name": "@example/basics",
+  "name": "lyacos-foundation",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,10 +9,17 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^1.0.0",
+    "@astrojs/image": "^0.13.0",
+    "@astrojs/tailwind": "^3.1.1",
+    "@tailwindcss/typography": "^0.5.7",
+    "@types/alpinejs": "^3.7.0",
+    "astro": "^2.2.3",
     "prettier-plugin-astro": "^0.11.0"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^2.0.1",
+    "@astrolib/seo": "^0.4.0",
+    "astro-compress": "^1.1.49",
     "cypress": "^10.0.3"
   }
 }
